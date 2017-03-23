@@ -1,0 +1,9 @@
+function funcExample( text ) {
+  console.log( "Тест" );
+  console.log( "Тест" );
+
+  if ( true ) {
+    console.log( "Тест" );
+  }
+
+}
