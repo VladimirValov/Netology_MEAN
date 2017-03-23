@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Домашнее задание к лекции 1.3 «События EventEmmiter»</title>
+  <link rel="stylesheet" href="../../../css/styles.css">
+</head>
+<body>
+<section>
+  <h1>Домашнее задание к лекции 1.3 «События EventEmmiter»</h1>
+
+  <p>Доработать <a href="chat.js" download>chat.js</a></p>
+
+  <h2>Часть 1</h2>
+
+  <ol>
+    <li>Добавить обработчик события <code>message</code> для Чата Вебинара (<code>webinarChat</code>), который выводит в консоль сообщение 'Готовлюсь
+      к ответу'. Обработчик создать в отдельной функции.
+    </li>
+    <li>Для Вконтакте (<code>vkChat</code>) установить максимальное количество обработчиков событий, равное 2.</li>
+    <li>Добавить обработчик 'Готовлюсь к ответу' из пункта 1.1 к чату Вконтакте.</li>
+  </ol>
+
+  <h2>Часть 2</h2>
+
+  <ol>
+    <li>В классе чата <code>ChatApp</code> добавить метод <code>close</code>, который будет вызывать событие <code>close</code> (событие вызывается
+      один раз, <code>setInterval</code> как в констукторе, не нужен).
+    </li>
+    <li>Для чата вконтакте (<code>vkChat</code>) добавить обработчик <code>close</code>, выводящий в консоль текст "Чат вконтакте закрылся :(".</li>
+    <li>Вызывать у чата вконтакте метод <code>close()</code>.</li>
+  </ol>
+
+  <h2>Дополнительное задание</h2>
+
+  <ol>
+    <li>Добавить код, который через 30 секунд отписывает <code>chatOnMessage</code> от вебинара <code>webinarChat</code>.</li>
+    <li>Разбить существующий код на модули, запускаемый файл должен быть <code>index.js</code> или <code>index.js</code></li>
+  </ol>
+
+</section>
+
+<aside>
+  <p>Способы предоставить домашнее задание в порядке приоритета:</p>
+  <ol>
+    <li>Исходный код на <a href="https://bitbucket.org/">BitBucket</a> или <a href="https://github.com/">GitHub</a></li>
+    <li>Код в песочнице <a href="http://codepen.io">CodePen</a> или <a href="https://jsfiddle.net">JSFiddle</a></li>
+  </ol>
+  <p>Не смогу проверить и помочь если прислать:</p>
+  <ul>
+    <li>Архивы, особенно RAR</li>
+    <li>Скриншоты кода</li>
+    <li>Теоретический рассказ о возникших проблемах</li>
+  </ul>
+</aside>
+</body>
+</html>
